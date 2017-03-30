@@ -66,15 +66,6 @@ public class Automaat implements SerialPortEventListener{
 
     Automaat(){
         initialize();
-//        Thread t=new Thread() {
-//            public void run() {
-//                //the following line will keep this app alive for 10 seconds,
-//                //waiting for events to occur and responding to them (printing incoming messages to console).
-//                try {Thread.sleep(10000);} catch (InterruptedException ie) {}
-//                System.exit(0);
-//            }
-//        };
-//        t.start();
     }
 
     public static void main(String args[]) {
